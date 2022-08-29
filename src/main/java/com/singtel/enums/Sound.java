@@ -18,7 +18,9 @@ public enum Sound {
 	DOG("Woof woof"),
 	CAT("Meow meow"),
 	PARROT("Squawk squawk"),
-	PHONE_RINGTONE("Ring ring");
+	PHONE_RINGTONE("Ring ring"),
+
+	DOLPHIN("Squeak squeak");
 
 	private String sound;
 
