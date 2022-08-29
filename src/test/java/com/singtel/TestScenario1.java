@@ -18,12 +18,15 @@ public class TestScenario1 {
     Duck duck;
     Chicken chicken;
 
+    Rooster rooster;
+
     @Before
     public void setUp() throws Exception {
         bird = new Bird();
 
         duck = new Duck();
         chicken = new Chicken();
+        rooster = chicken.grow();
 
     }
 
@@ -73,5 +76,11 @@ public class TestScenario1 {
         log.info("--- testChickenCannotFly ---");
         assertTrue(!(chicken instanceof Flyer));
         log.info("Chicken cannot fly");
+    }
+
+    @Test
+    public void testRoosterSings() {
+        log.info("--- testRoosterSings ---");
+        assertEquals(rooster.sing(), Sound.ROOSTER.getSound());
     }
 }

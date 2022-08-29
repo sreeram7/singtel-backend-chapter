@@ -12,8 +12,8 @@ public enum Sound {
 
 	BIRD("I am singing"),
 	CHICKEN("Cluck Cluck"),
-	DUCK("Quack Quack");
-
+	DUCK("Quack Quack"),
+	ROOSTER("Cock-a-doodle-doo");
 	private String sound;
 
 	 
