@@ -1,8 +1,9 @@
 package com.singtel;
 
-import com.singtel.actions.*;
 import com.singtel.enums.Sound;
 import com.singtel.model.*;
+import com.singtel.actions.Flyer;
+import com.singtel.actions.Swimmer;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.After;
 import org.junit.Before;

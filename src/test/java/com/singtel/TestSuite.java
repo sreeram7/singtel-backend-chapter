@@ -7,7 +7,9 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         TestScenario1.class,
         TestScenario2.class,
-        TestScenario3.class
+        TestScenario3.class,
+        TestScenario4.class,
+        TestScenario5_Bonus.class
 })
 public class TestSuite {
 
