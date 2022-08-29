@@ -10,7 +10,9 @@ import lombok.Setter;
 @NoArgsConstructor
 public enum Sound {
 
-	BIRD("I am singing");
+	BIRD("I am singing"),
+	CHICKEN("Cluck Cluck"),
+	DUCK("Quack Quack");
 
 	private String sound;
 
